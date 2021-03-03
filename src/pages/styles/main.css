@@ -1,0 +1,35 @@
+.container {
+  display: block;
+}
+
+.container_lollies {
+    /* border: 3px solid black; */
+    background-color: rgb(250, 75, 75);
+    margin-top: 0%;
+    height: 80vh;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+   
+}
+
+.container_lollies:hover {
+    background-color: transparent;
+    transition: 0.5s;
+
+}
+
+.container > button {
+    background-color: rgb(250, 75, 75);
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 2rem;
+}

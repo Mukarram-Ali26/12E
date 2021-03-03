@@ -1,0 +1,46 @@
+.progress {
+    margin-top: 25%;
+    margin-left: 50%;
+}
+
+.container {
+    align-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container_lolly {
+    margin: auto;
+}
+
+
+.container_text {
+    font-family: 'Seaweed Script', cursive;
+    /* border: 3px solid black; */
+    color: rgb(253, 253, 253)
+}
+
+input[type="text"] {
+    color: rgb(253, 253, 253);
+    font-family: 'Seaweed Script', cursive;
+
+}
+
+.container_request > h3{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.container_request > button {
+    background-color: rgb(92, 75, 250);
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Lobster', cursive;
+    font-size: 1rem;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,41 @@
+.container {
+    align-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container_lolly {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container_lolly_input {
+    display: flex;
+    border-radius: 30%;
+    flex-direction: column;
+    vertical-align: middle;
+    align-self: center;
+    position: relative;
+    left: -100px
+}
+
+
+.container_form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="color"] {
+    position: relative;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.container_form > button {
+
+    margin-top: 500px;
+
+}
+
